@@ -1,20 +1,44 @@
+<div>
+    <app-menu></app-menu>
+</div>
 <div class="main">
 
-    <div>
-        <app-menu></app-menu>
-    </div>
+
     <div class="tekstas">
-        <h1>Didžiausia atvirojo kodo šunų nuotraukų kolekcija internete</h1>
-        <p>Perskaitykite mūsų dokumentus, kad sužinotumėte daugiau, arba išbandykite patys žemiau.
+        <h1>My Meme API collection for no apparent reason</h1>
+        <p>All of us need a good laugh in our lives from time to time, lets share funny things around here!
+            <br>
+            <br>
+            We will hook you up with professional quality memes!
+            <br>
+            <br>
+            Wanna add yours? feel free to add your best and favorit ones at the Submit page.
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </p>
+    </div>
+    <div>
 
-            Norite įtraukti savo šunį į kolekciją? Pateikite savo nuotraukas kaip ištraukimo užklausą čia.
+        <h4>JSON</h4>
+        <div>
+            <textarea class="jsonWin"></textarea>
+            <button type="submit" (click)="getMeme()" class="btn">Click Me!</button>
+        </div>
 
-            Reikia daugiau šuns savo gyvenime? Gaukite 1 Dog CEO Zine numerį – ketvirtinį
-            verslo ir gyvenimo būdo žurnalą, skirtą šiuolaikiniam šuniui.
+        <div class="JSON">
+            <div class="photo2">
+                <img src="../../../assets/men_in_black_PNG8.png" alt="">
+            </div>
+            <div class="photo1">
+                <img [src]="myPhoto" alt="">
+            </div>
+            
+        </div>
 
-            Išskirtinis interviu su Skotiju Monopolio šunimi.
-
-            Užsisakykite kopiją iš Side Orders Publishing. Siunta visame pasaulyje. </p>
     </div>
 
 </div>

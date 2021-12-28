@@ -1,9 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
+
 .main{
     display: flex;
-    align-items: stretch;
+    flex-direction: column;
+    margin-left: 20%;
+    font-family: 'Cormorant SC', serif; color: rgb(73, 67, 67);
     
 }
 .tekstas{
-    margin-left: 20%;
+    
     margin-top: 50px;
+}
+.jsonWin{
+    width: 400px;
+
+}
+.btn{
+
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(143, 140, 140);
+    width: 80px;
+    margin-left: 25px;
+
+}
+.photo2{
+    box-shadow: 15px black;
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    width: 250px;
+    display: flex;
+
+}
+.photo1{
+    box-shadow: 15px black;
+    background-color: rgb(206, 197, 197);
+    max-height: 250px;
+    max-width: 250px;
+    margin-left: 50px;
+
+}
+.JSON{
+    display: flex;    
+    margin-top: 50px;
+
 }
