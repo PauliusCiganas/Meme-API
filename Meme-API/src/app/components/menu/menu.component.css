@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
+
+.menu{
+    background-color: rgb(87, 78, 74);
+    width: 15%;
+    height: 100vh;
+    transition-duration: 0.5s;
+    font-family: 'Cormorant SC', serif; color: rgb(143, 140, 140);
+    position: fixed;
+    
+}
+.menu:hover{
+    width: 16%;
+}
+
+.centered{
+    padding-top: 10px;
+    text-align: center;
+}
+.line{
+    width: 80%;
+    height: 2px;
+    border-bottom: 1px solid rgb(143, 140, 140);
+    margin-left: 10%;
+    margin-bottom: px;
+}
+.btn{
+    border: none;
+    background-color: inherit;
+    padding-top: 14px ;
+    padding-bottom: 14px ;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: rgb(143, 140, 140);
+    width: 80%;
+    text-align: left;
+}
+.btn:hover{
+    color: rgb(207, 204, 204);
+    transition-duration: 0.2s
+}

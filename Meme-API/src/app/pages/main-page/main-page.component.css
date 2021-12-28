@@ -1,0 +1,9 @@
+.main{
+    display: flex;
+    align-items: stretch;
+    
+}
+.tekstas{
+    margin-left: 20%;
+    margin-top: 50px;
+}
