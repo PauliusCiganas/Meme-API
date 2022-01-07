@@ -17,16 +17,25 @@
             <br>
             <br>
             <br>
+
             <br>
             <br>
         </p>
+
+    </div>
+    <div class="bbz">
+        <div class="apiWin">
+            <p>https://memeapi100.herokuapp.com/</p>
+        </div>
+        <button type="submit" (click)="getMeme()" class="btn">Click Me!</button>
     </div>
     <div>
 
+
         <h4>JSON</h4>
         <div>
-            <textarea class="jsonWin"></textarea>
-            <button type="submit" (click)="getMeme()" class="btn">Click Me!</button>
+            <textarea style="background-color: rgb(219, 219, 219);" class="jsonWin">{{address}}</textarea>
+
         </div>
 
         <div class="JSON">
@@ -36,7 +45,7 @@
             <div class="photo1">
                 <img [src]="myPhoto" alt="">
             </div>
-            
+
         </div>
 
     </div>

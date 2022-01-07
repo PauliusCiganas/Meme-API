@@ -13,10 +13,12 @@ export class MainPageComponent implements OnInit {
   }
 
   myPhoto = "";
+  address="";
   async getMeme() {
     // this.myPhoto = await (await fetch("https://memeapi100.herokuapp.com/")).json();
     let object = await (await fetch("https://memeapi100.herokuapp.com/")).json();
     console.log(object);
     this.myPhoto = object.memeLink
+    this.address=JSON.stringify(object);
   }
 }
